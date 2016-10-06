@@ -1,8 +1,8 @@
 \documentclass [12pt]{article}
+\usepackage{graphicx}
 
-\title{\small{\textbf{Design Document For:}}\\[1in]{\Huge{\textbf{Dodgeball: Eldritch Escape}}}}
-\author{Zach Stecher}
-\date{Due: 9/22/16}
+\title{\includegraphics{header.png}}
+\date{}
 
 \begin{document}
 
@@ -60,6 +60,10 @@ The aim of Eldritch Escape is to provide a fun platforming experience that combi
 \item Defeat the spawn of the Old Gods by hitting them with dodgeballs
 \end{itemize}
 
+\section*{Competitive Analysis}
+
+
+
 \section*{Game World}
 
 \subsection*{Overview}
@@ -109,8 +113,99 @@ The basement level serves as the first area of the game, doubling as a short tut
 
 After climbing these crates, the player is presented with a more difficult puzzle to clear the level. The player must find a way to stack 4 boxes on top of each other so that they can reach the ledge above. After solving this puzzle, the player advances by defeating a few more enemies on their way to the ladder that leads them out of the basement and onto the next level.
 
+\begin{figure}[!htb]
+	\includegraphics{basement.jpg}
+	\caption{Concept sketch of first level.}
+\end{figure}
+\newpage
+
 \subsection*{1st Floor Halls}
 
 Players emerge into the first floor of the school proper. This is where things start to get a little weird aesthetics-wise. While the halls look mostly like a normal school, the layout seems awkward and impossible. Floating platforms dot the halls, and seemingly random rises and falls in the terrain provide platforming challenge for the player. The player must make their way through the level avoiding tentacle pits(functionally spike pits), defeating more active enemies, and solving item and platforming puzzles to progress. The objective for the player is to find the key that opens up the way to the Lecture Hall.
+\newpage
 
+\section*{Asset List}
+
+\begin{itemize}
+\item Character Sprites
+	\begin{itemize}
+	\item Andy
+	\item Enemies
+	\item Dodgeball (for Andy's attack)
+	\end{itemize}
+
+\item Environment Sprites
+	\begin{itemize}
+	\item Boxes/Crates
+	\item Switches/levers
+	\item Floor and ceiling tiles
+	\item Ladder
+	\item Door/hatch
+	\end{itemize}
+
+\item Audio
+	\begin{itemize}
+	\item Background music
+	\item Enemy sounds (idle, attack, movement, getting hit)
+	\item Andy sounds (movement, getting hit, attacking)
+	\item Boxe sliding sound
+	\item Dodgeball hit sound
+	\end{itemize}
+
+\item Animations:
+	\begin{itemize}
+	\item Andy walking animation
+	\item Enemy walking animation
+	\item Andy and Enemy attacking animations
+	\item Andy and Enemy taking damage animations
+	\item Andy and Enemy death animations
+	\item Jumping animation
+	\item Ladder climbing animation
+	\end{itemize}
+
+\item User Interface
+	\begin{itemize}
+	\item Health bar
+	\item Main Menu/Pause Menu
+	\item Ball power select indicators
+	\end{itemize}
+\end{itemize}
+
+\section*{Budget and Time Estimates}
+
+\subsection*{Budget}
+
+\begin{itemize}
+\item \$20,750 for programmer salary.
+\item \$22,000 for producer/programmer salary.
+\item \$15,000 for miscellaneous expenses. Audio and art assets will be obtained from a freelance source on a per asset basis.
+\end{itemize}
+\newpage
+
+\section*{Future Plans}
+
+\section*{Concept Art}
+\begin{figure}[!htb]
+	\includegraphics{Mind_flayer.jpg}
+	\caption{Basic Enemy Inspiration - Image courtesy of Forgotten Realms wiki}
+\end{figure}
+
+\begin{figure}[!htb]
+\centering
+	\includegraphics{rylehbg.png}
+	\caption{Architectural Concept for Level Design - Courtesy lovecraftianscience.wordpress.com}
+\end{figure}
+\clearpage
+
+\begin{figure}[!htb]
+\centering
+	\includegraphics{priestEnemy.png}
+	\caption{Enemy Sprite Concept - Courtesy of Charas}
+\end{figure}
+
+\begin{figure}[!htb]
+\centering
+	\includegraphics{andy.png}
+	\caption{Andy Sprite Concept - Courtesy of Charas}
+\end{figure}
 \end{document}
